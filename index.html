@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO
+1. Make both paragraph elements wrap around the image.
+2. Use Float to move the cat div to the left and the dog div to the right.
+3. Use clear to make the footer go below both the cat and dog div. -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Float</title>
+  <style>
+    div {
+      display: inline-block;
+      width: 40%;
+    }
+
+    p {
+      font-size: 2em;
+    }
+    img {
+  float:left;
+}
+    .cat {
+      background-color: aquamarine;
+      float: left;
+    }
+
+    .dog {
+      background-color: coral;
+      float:right;
+    }
+   
+    footer {
+      text-align: center;
+      background-color: blueviolet;
+      clear:both;
+
+    }
+    h1{
+     text-align: center;
+    }
+    body{
+      background-color: rgba(49, 40, 45, 0.701);
+    }
+    .mods{
+      display: inline-block;
+      color:black;
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>What if crush kita? Yiiee deeeym</h1>
+  <div class="cat">
+    <h2>OG Vampire</h2>
+
+    <img src="./356941853_183340078069692_3181802554563723564_n.jpg"
+    height="350px"
+    width="250px"/>
+    
+    <p class="first-paragraph">Long time ago there is one girl who lives in Pateros City that only appear at night. Based on the people that lives in Pateros, VAMPS aka Baby Girl Vampire Sweetheart(ouch) Princess have a power to read peoples mind and also a great dancer.</p>
+  </div>
+  <div class="dog">
+    <h2>OJT Vampire</h2>
+    <img src=".//364539625_1014269743343499_3893306158453890394_n.jpg"
+    height="350px"
+    width="250px" />
+    <p class="second-paragraph">This guy can't dance the only thing that his good at is to tease OG Vampire. He likes to play Dota and of course to tease OG vamps. Okay im gonna tell the truth, im spider man weird huh?</p>
+  </div>
+<div class="result">
+  <div class="mods">
+    <a href="./index1.html"><p>SHOW RESULT</p></a>
+  </div>
+
+</div>
+  <footer>Copyright. This is the footer</footer>
+</body>
+
+</html>
